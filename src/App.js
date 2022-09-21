@@ -6,6 +6,7 @@ import Specialization from "./Components/Specialization/Specialization";
 import Fabrics from "./Components/Fabrics/Fabrics";
 import Aboutus from "./Components/AboutUs/Aboutus";
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Fabrics />
       <Specialization />
       {/* <Application /> */}
+     
       <Aboutus/>
       <Contact />
     </>

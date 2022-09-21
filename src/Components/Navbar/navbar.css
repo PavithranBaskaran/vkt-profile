@@ -49,6 +49,7 @@
 .navItem {
   font-size: 20px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .centerContent {
@@ -87,6 +88,12 @@
   display: none;
 }
 
+@media only screen and (max-width: 1440px) {
+  .centerContent {
+    right: 35%;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .centerContent {
     right: 37%;
@@ -95,10 +102,15 @@
 
 @media only screen and (max-width: 1024px) {
   .centerContent {
-    right: 35%;
+    right: 29%;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  .centerContent {
+    right: 20%;
+    top: 40%;
+  }
+}
 @media only screen and (max-width: 720px) {
   .container {
     display: none;
@@ -112,7 +124,7 @@
         rgba(8, 83, 156, 0.75)
       ),
       url("../../images/head.JPG");
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +132,7 @@
   }
   .mobileTopNav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px;
   }
@@ -136,9 +148,10 @@
   }
 
   .mobilecenterContent {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     top: 40%;
     left: 18%;

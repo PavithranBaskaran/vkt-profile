@@ -18,13 +18,13 @@ function Specialization() {
         <div className="speContent">
           <p className="spePara">
             Ikat is a method of colouring fabric in patterns by resist dyeing.
-            The pattern is applied in parts ofthe yarns for the warp and/or weft
-            are protected with a resist before dyeing. I The dye then colours
-            the yarn everywhere except under the binding. . After dyeing, the
+            The pattern is applied in parts of the yarns for the warp and/or
+            weft are protected with a resist before dyeing. The dye then colours
+            the yarn everywhere except under the binding. After dyeing, the
             bindings are removed and the pattern appears undyed on a coloured
-            ground I When dyeing is complete | the yarn is then woven into
-            fabric X often in a relatively simple structure and often in a
-            density that highlights the warp.
+            ground. When dyeing is complete, the yarn is then woven into fabric,
+            often in a relatively simple structure and often in a density that
+            highlights the warp.
           </p>
           <p className="speBold">
             Sounds easy when its read. It's a tedious process which were made

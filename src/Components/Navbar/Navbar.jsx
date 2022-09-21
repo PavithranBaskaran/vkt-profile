@@ -10,32 +10,35 @@ function Navbar() {
         <div className="navContainer">
           <div className="navLeft">
             <div className="navItem">Home</div>
-            <div className="navItem">Fabrics</div>
-            <div className="navItem">Specialization</div>
-            <div className="navItem">About</div>
+            <div className="navItem" onClick={()=>window.scrollTo(0,500)}>Fabrics</div>
+            <div className="navItem" onClick={()=>window.scrollTo(500,1500)}>Specialization</div>
+            <div className="navItem" onClick={()=>window.scrollTo(1500,3000)}>About</div>
           </div>
           <div className="navCenter">
             <img src={logo} alt="logo" className="logo" />
           </div>
           <div className="navRight">
-            <div className="navItem">Contact</div>
+            <div className="navItem" onClick={()=>window.scrollTo(3000,3900)}>Contact</div>
 
-            <div className="navItem">Instagram</div>
-            <div className="navItem">LinkedIn</div>
-            <div className="navItem">Gmail</div>
+            <div className="navItem" onClick={() => window.open("https://www.instagram.com/vktfabs/", '_blank')}>Instagram</div>
+            <div className="navItem" onClick={() => window.open("https://www.linkedin.com/company/vktfabs/", '_blank')}>LinkedIn</div>
+            <div className="navItem" onClick={()=>window.open("mailto:vijay@vktfabs.com")}>Mail</div>
           </div>
         </div>
         <div className="centerContent">
           <img src={title} alt="" className="centerTitle" />
           <h3 className="centerText">Finests Quality Fabrics</h3>
-          <button className="centerBtn">Enquire Now</button>
+          <button className="centerBtn" onClick={()=>window.scrollTo(0,3500)}>
+            Enquire Now
+          </button>
         </div>
       </div>
       <div className="mobileNavContainer">
         <div className="mobileTopNav">
-          <img src={logo} alt="" className="mobileLogo" />
-          <div className="mobileNavItem">Blog</div>
-          <div className="mobileNavItem">Gallery</div>
+          
+          {/* <div className="mobileNavItem">Blog</div> */}
+          <img src={logo} alt="" className="mobileLogo" />  
+          {/* <div className="mobileNavItem">Gallery</div> */}
         </div>
         <div className="mobilecenterContent">
           <img
@@ -45,7 +48,9 @@ function Navbar() {
             style={{ width: "280px" }}
           />
           <h3 className="mobilecenterText">Finests Quality Fabrics</h3>
-          <button className="mobilecenterBtn">Enquire Now</button>
+          <button className="mobilecenterBtn" onClick={()=>window.scrollTo(0,4500)}>
+            Enquire Now
+          </button>
         </div>
       </div>
     </>
