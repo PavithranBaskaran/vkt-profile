@@ -71,6 +71,7 @@ textarea {
   background-color: #e9775b;
   color: white;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .mapouter {
