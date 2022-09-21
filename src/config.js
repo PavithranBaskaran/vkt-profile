@@ -1,3 +1,3 @@
 export const config = {
-    api : 'http://localhost:3001'
+    api : 'https://vkt-profile-backend.vercel.app'
 }
