@@ -1,9 +1,9 @@
-.application{
+/* .application{
   background-image: url("../../images/bg-texture.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .slideshow {
   object-fit: contain !important;
