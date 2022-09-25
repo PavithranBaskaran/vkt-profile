@@ -16,14 +16,13 @@ function App() {
   useEffect(() => {
     Reactga.pageview(window.location.pathname);
   }, []);
-  
+
   return (
     <>
       <Navbar />
       <Fabrics />
       <Specialization />
-      {/* <Application /> */}
-
+      <Application />
       <Aboutus />
       <Contact />
     </>

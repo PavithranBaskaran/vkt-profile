@@ -1,27 +1,29 @@
-.appContent {
-  display: flex;
-  flex-direction: column;
-  font-size: 40px;
-  font-weight: 200;
-  text-align: justify;
-  letter-spacing: 2px;
+.application{
+  background-image: url("../../images/bg-texture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow {
+  object-fit: contain !important;
+  height: 100%;
+
+}
+
+.slider-wrapper ul li {
+  object-fit: contain !important;
+  height: 800px;
+  width: 10px;
+}
+
+.slide-main{
   margin-top: 30px;
-  margin-left: 150px;
 }
 
-ul{
-    list-style: none;
-}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-ul li::before {
-    content: "\2022";  
-    color: #c91e24;
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
-    
-  }
-.appListing-title{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
 }

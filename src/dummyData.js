@@ -178,7 +178,7 @@ export const process = [
   {
     id: 2,
     img: "https://i0.wp.com/assets-clothroads-com.s3.amazonaws.com/uploads/2013/09/Ikat_Print-India.jpg?ssl=1",
-    title: "Wraping of Ikat",
+    title: "Ikat warping",
   },
   {
     id: 1,
